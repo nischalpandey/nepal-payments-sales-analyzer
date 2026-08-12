@@ -32,7 +32,7 @@ export const AiReportModal: React.FC<AiReportModalProps> = ({
     setError(null);
 
     try {
-      const res = await fetch('/api/gemini/analyze', {
+      const res = await fetch('/home', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
