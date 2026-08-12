@@ -1,0 +1,6 @@
+{
+  "name": "Nepal Payments Sales Analyzer",
+  "description": "Interactive sales and revenue analytics dashboard for payment data with CSV upload, fee analysis, monthly trends, and product grouping in NPR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
